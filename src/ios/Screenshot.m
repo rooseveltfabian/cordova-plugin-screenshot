@@ -14,8 +14,6 @@
 
 @implementation Screenshot
 
-@synthesize webView;
-
 CGFloat statusBarHeight()
 {
     CGSize statusBarSize = [[UIApplication sharedApplication] statusBarFrame].size;
